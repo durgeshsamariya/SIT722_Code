@@ -10,6 +10,6 @@ Make sure you installed `Python`  and dependencies to run this example.
 
     `python main.py`
 
-2. Open your favourite browser to [[http](http://127.0.0.1:8000/)](http://127.0.0.1:8000/).
+2. Open your favourite browser to [http://127.0.0.1:8000/](http://127.0.0.1:8000/).
 
 3. Once you done with your code go to terminal and stop your code by pressing `Ctrl + C`.
