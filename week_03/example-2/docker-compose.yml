@@ -1,0 +1,32 @@
+version: '3' # version of docker compose file format
+# nests all container under service
+services:
+  # TODO: Write video-streaming container commands (HINT: Refer to example-1 docker-compose for more details)
+  video-streaming:
+    image: # image name
+    build:
+      context: 
+      dockerfile: 
+    container_name: # container name
+    ports:
+      - "<port>:<port>"
+    environment: # Add all environment variables. (HINT: YOu need to add 3 environment variables)
+      -
+      -
+      -
+    restart: "no"
+
+  # TODO: Write azure_storage container commands (HINT: Refer to example-1 docker-compose for more details)
+  azure-storage:
+    image: #image_name
+    build:
+      context: 
+      dockerfile: 
+    container_name: 
+    ports:
+      - "<port>:<port>"
+    environment: # Add all environment variables. (HINT: YOu need to add 3 environment variables)
+      - 
+      - 
+      - 
+    restart: "no"
