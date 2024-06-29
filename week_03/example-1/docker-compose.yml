@@ -1,0 +1,22 @@
+version: '3' # version of docker compose file format
+# nests all container under service
+services:
+  # First service
+  video-streaming:
+    # image name of first service 
+    image: video-streaming
+    # container build value
+    build:
+      # code location
+      context: ./video-streaming
+      # docker file path
+      dockerfile: Dockerfile
+    # container name
+    container_name: video-streaming
+    # container port
+    ports:
+      - "8000:8000"
+    # environment variables
+    environment:
+      - PORT=8000
+    restart: "no"
